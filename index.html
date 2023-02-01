@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>khata book app</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="headding">
+            <h1>kirana store khata book</h1>
+            <h1> जय श्री गणेश </h1>
+        </div>
+        <div class="form">
+
+            <form action="" class="form" id="form">
+
+                <div class="text-div">
+                    <label for="" class="text"> Name of Customer</label>
+                    <input type="text" placeholder="Name Customer" class="inputBox" id="inputBox1" required>
+                </div>
+                <div class="text-div">
+                    <label for="" class="text"> Name of Product</label>
+                    <input type="text" placeholder="Name of Product" class="inputBox" id="inputBox2" required>
+                </div>
+                <div class="text-div">
+                    <label for="" class="text">Customer's Phone Number </label>
+                    <input type="number" placeholder="Number..." class="inputBox" id="inputBox3">
+                </div>
+                <div class="trasaction">
+                    <h1> Transaction</h1>
+                    <h1 id="alert"> </h1>
+                </div>
+                <div class="text-div">
+                    <label for="" class="text">Price of product</label>
+                    <input type="number" placeholder="Rs..." class="inputBox" id="inputBox4" required>
+                </div>
+                <div class="text-div">
+                    <label for="" class="text"> Cash </label>
+                    <input type="number" placeholder="Rs... " class="inputBox" id="inputBox5">
+                </div>
+                <div class="text-div">
+                    <label for="" class="text"> borrow </label>
+                    <input type="number" placeholder="Rs..." class="inputBox" id="inputBox6">
+                </div>
+        </div>
+
+        <!-- submit button  -->
+        <div class="button">
+            <button type="submit" class="btn" id="submitBtn" onclick="submitbtn(event)">Submit</button>
+        </div>
+
+        </form>
+
+        <hr class="hrLine">
+
+        <!-- history -->
+        <div>
+            <h1 class="headding">History</h1>
+            <input type="text" placeholder=" Search" id="searchTxt" onkeyup="myFunction()">
+        </div>
+
+
+        <table id="table">
+            <thead id="thead">
+                <tr>
+                    <th>Name</th>
+                    <th>Product</th>
+                    <th>Price</th>
+                    <th>cash</th>
+                    <th>Borrow</th>
+                    <th>Number</th>
+                    <th>No</th>
+                </tr>
+            </thead>
+            <tbody id="tbody">
+
+            </tbody>
+        </table>
+    </div>
+</body>
+<script src="index.js"></script>
+
+</html>

@@ -1,0 +1,174 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.headding {
+    text-align: center;
+    margin-top: 8px;
+
+}
+
+.trasaction {
+    margin: 31px 29px;
+    display: flex;
+}
+
+#alert {
+    margin-left: 100px;
+    background-color: brown;
+}
+
+.form {
+    margin: 40px 30px;
+}
+
+#searchTxt {
+    height: 40px;
+    width: 200px;
+    border: 2px solid black;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 6px;
+    margin: 10px 10px;
+}
+
+.text {
+    font-size: 32px;
+
+}
+
+.text-div {
+    margin-top: 10px;
+}
+
+.inputBox {
+    height: 60px;
+    width: 250px;
+    border: 2px solid black;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+#inputBox1 {
+    margin-left: 215px;
+
+}
+
+#inputBox2 {
+    margin-left: 239px;
+
+}
+
+#inputBox3 {
+    margin-left: 110px;
+
+}
+
+#inputBox4 {
+    margin-left: 250px;
+
+}
+
+#inputBox5 {
+    margin-left: 388px;
+}
+
+#inputBox6 {
+    margin-left: 362px;
+}
+
+.container {
+    width: 100%;
+    background-color: rgb(157, 200, 237);
+    padding: 5px;
+}
+
+.btn {
+    height: 64px;
+    width: 144px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 22px;
+    margin: 1px auto;
+    background-color: aquamarine;
+
+}
+
+.btn:hover {
+    border: 2px solid black;
+    background-color: rgb(4, 242, 163);
+}
+
+.delbtn:hover {
+
+    background-color: rgb(4, 242, 163);
+}
+
+.button {
+
+    text-align: center;
+}
+
+.delbtn {
+    text-align: center;
+    user-select: none;
+
+
+    border-radius: 5px;
+    font-size: 22px;
+    margin: 1px auto;
+    background-color: aquamarine;
+}
+
+.history {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+}
+
+#table {
+    width: 100%;
+    border-collapse: collapse;
+
+}
+
+#thead {
+    font-size: 25px;
+}
+
+.tbtr {
+    text-align: center;
+}
+
+tbody {
+    margin-top: 10px;
+}
+
+td {
+    padding: 4px;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#delete {
+    border: 2px solid black;
+    background-color: aquamarine;
+}
+
+#delete:hover {
+    border: 2px solid black;
+    background-color: rgb(4, 242, 163);
+}
+
+.hrLine {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
